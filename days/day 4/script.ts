@@ -1,4 +1,4 @@
-import { readFileSync } from "fs";
+import { readFileSync } from "fs"
 
 function main() {
   const input = readFileSync("./days/day 4/final-input.txt", "utf-8")
