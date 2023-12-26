@@ -28,7 +28,9 @@ function main() {
       stacks[from][idx] = null
     }
 
-    for (let idx = 0; idx < amt; idx++) stacks[from].pop()
+    for (let idx = 0; idx < amt; idx++) {
+      stacks[from].pop()
+    }
   }
 
   const top_crates = Object.values(stacks).map(stack => stack.at(-1))
